@@ -1,6 +1,6 @@
 /* ===== GLOBAL STYLES ===== */
 /* --- Body Styles --- */ 
-/* --- Base Styles --- */ .page-container { max-width: 1000px; margin: 0 auto; font-family: 'Roboto', sans-serif; color: #333; line-height: 1.7; padding-top: 15px; font-size: 15px; } .page-container a { color: #a43232!important; } .page-container a:hover { color: #a43232!important; } .monospace { font-family: 'Roboto Mono', monospace; }
+/* --- Base Styles --- */ .page-container { max-width: 1000px; margin: 0 auto; font-family: 'Roboto', sans-serif; color: #333; line-height: 1.7; padding-top: 15px; font-size: 15px; } .page-container a { text-decoration: none; font-weight: 700; color: #a43232!important; } .page-container a:hover { color: #a43232!important; } .monospace { font-family: 'Roboto Mono', monospace; }
 /* --- Dossier Container --- */ .dossier-container { background: #fff; border: 1px solid #d1d1d1; border-radius: 4px; box-shadow: 0 5px 15px rgba(0,0,0,0.07); margin-top: 1.5rem; } .dossier-header { background: #333; color: #fff; padding: 1.25rem 2rem; border-radius: 4px 4px 0 0; border-bottom: 1px solid #555; } .dossier-main-title { font-family: 'Playfair Display', serif; font-size: 24px; margin: 0; } .dossier-body { padding: 2rem; }
 /* --- Content Sections --- */ .dossier-body section { margin-bottom: 2rem; } .dossier-body section:last-child { margin-bottom: 0; } .section-header { font-family: 'Playfair Display', serif; font-size: 20px; color: #333; border-bottom: 2px solid #e0e0e0; padding-bottom: 0.5rem; margin: 0 0 1.5rem 0; } .section-summary { text-align:justify; } .dossier-body p { text-align: justify; }
 /* --- Note Block --- */ .evaluator-note { margin: 1.5rem 0; padding: 1rem; border-left: 3px solid #a43232; background: #f9f9f9; font-style: italic; } .evaluator-note strong { font-style: normal; }
@@ -123,5 +123,6 @@
 /* --- Transcript Log Body --- */ .transcript-log { background-image: radial-gradient(#e9e9e9 1px, transparent 1px); background-size: 15px 15px; flex-grow: 1; overflow-y: auto; padding: 1.5rem; }
 /* --- Transcript Entries --- */ .transcript-entry { margin-bottom: 1.25rem; font-size: 14px; } .speaker-name { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 3px; } .speaker-pov { color: #a43232; } .speaker-contact { color: #555; } .dialogue { margin: 0 0 0 10px; padding-left: 10px; border-left: 2px solid #e0e0e0; line-height: 1.6; } .call-timestamp { font-family: 'Roboto Mono', monospace; font-size: 11px; color: #999; }
 /* --- Action/Sound Lines --- */ .transcript-action { font-style: italic; color: #777; text-align: center; margin: 1.25rem 0; font-size: 13px; }
+
 
 
