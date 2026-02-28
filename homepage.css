@@ -23,7 +23,7 @@ a:hover {
 .hero-display {
 	position: relative;
 	min-height: 350px;
-	background: url(https://i.pinimg.com/736x/5b/d6/8e/5bd68ec0e66fab8d014a99fda19d75fc.jpg) center 30% / cover;
+	background: url(https://i.pinimg.com/736x/94/df/f4/94dff440587eac89e5a95fdd402fb70e.jpg) center 30% / cover;
 	border: 1px solid #d1d1d1;
 	border-radius: 4px;
 	display: flex;
@@ -305,3 +305,4 @@ a:hover {
 		font-size: 15px;
 	}
 }
+
