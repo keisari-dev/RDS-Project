@@ -1928,6 +1928,16 @@ section:first-of-type .section-header {
 	border-bottom: 1px solid #e0e0e0;
 }
 
+.file-sub-content {
+	margin:0px 20px
+}
+
+.file-sub-content h5 {
+	font-size:16px; 
+	font-weight:700; 
+	border-bottom: 1px solid #e0e0e0
+}
+
 .file-main-content p,
 .file-main-content ul:not(.related-links) {
 	list-style: none;
@@ -2637,5 +2647,6 @@ section:first-of-type .section-header {
 	margin: 1.25rem 0;
 	font-size: 13px;
 }
+
 
 
