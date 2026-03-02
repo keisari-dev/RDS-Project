@@ -2100,7 +2100,11 @@ section:first-of-type .section-header {
 #tab-3:checked~.tab-labels .label-3,
 #tab-4:checked~.tab-labels .label-4,
 #tab-5:checked~.tab-labels .label-5,
-#tab-6:checked~.tab-labels .label-6 {
+#tab-6:checked~.tab-labels .label-6,
+#tab-5:checked~.tab-labels .label-7,
+#tab-5:checked~.tab-labels .label-8,
+#tab-5:checked~.tab-labels .label-9,
+#tab-5:checked~.tab-labels .label-10 {
 	color: #333;
 	border-bottom-color: #a43232;
 }
@@ -2110,7 +2114,11 @@ section:first-of-type .section-header {
 #tab-3:checked~.content-3,
 #tab-4:checked~.content-4,
 #tab-5:checked~.content-5,
-#tab-6:checked~.content-6 {
+#tab-6:checked~.content-6,
+#tab-6:checked~.content-7,
+#tab-6:checked~.content-8,
+#tab-6:checked~.content-9,
+#tab-6:checked~.content-10 {
 	display: block;
 }
 
@@ -2629,3 +2637,4 @@ section:first-of-type .section-header {
 	margin: 1.25rem 0;
 	font-size: 13px;
 }
+
