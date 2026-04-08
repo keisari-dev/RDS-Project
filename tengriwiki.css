@@ -24,6 +24,16 @@ BODY STUFF
             font-size: 13px;
         }
 
+a {
+            color: var(--rds-primary);
+            text-decoration: none;
+        }
+
+a:hover {
+            opacity: 0.5;
+            text-decoration: none;
+        }
+
         body {
             background-color: var(--rds-black);
             font-family: var(--font-main);
