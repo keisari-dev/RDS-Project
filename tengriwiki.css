@@ -272,6 +272,16 @@ HOME PAGE
 /* =========================================
 CHARACTER/LOCATION/FACTION TEMPLATE
 ========================================= */
+#wiki-profile a {
+            color: var(--rds-primary)!important;
+            text-decoration: none!important;
+        }
+
+#wiki-profile a:hover {
+            opacity: 0.5!important;
+            text-decoration: none!important;
+        }
+
         /* Sidebar Styles */
         .dossier-row {
             display: flex;
@@ -367,11 +377,11 @@ CHARACTER/LOCATION/FACTION TEMPLATE
         }
 
         /* Tabs Customization */
-        .nav-tabs {
+        #wiki-profile .nav-tabs {
             border-bottom: 2px solid var(--rds-border);
             margin-bottom: 1.5rem;
         }
-        .nav-tabs .nav-link {
+        #wiki-profile .nav-tabs .nav-link {
             border: none;
             border-bottom: 3px solid transparent;
             color: #777 !important;
@@ -380,16 +390,16 @@ CHARACTER/LOCATION/FACTION TEMPLATE
             font-size: 1.1rem;
             padding: 10px 20px;
         }
-        .nav-tabs .nav-link:hover {
+        #wiki-profile .nav-tabs .nav-link:hover {
             border-bottom: 3px solid var(--rds-border);
             color: var(--rds-dark-grey) !important;
         }
-        .nav-tabs .nav-link.active {
+        #wiki-profile .nav-tabs .nav-link.active {
             background: transparent;
             color: var(--rds-primary) !important;
             border-bottom: 3px solid var(--rds-primary);
         }
-        .tab-content {
+        #wiki-profile .tab-content {
             text-align: justify;
             line-height: 1.7;
         }
