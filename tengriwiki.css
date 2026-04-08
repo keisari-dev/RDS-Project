@@ -25,13 +25,13 @@ BODY STUFF
         }
 
 a {
-            color: var(--rds-primary);
-            text-decoration: none;
+            color: var(--rds-primary)!important;
+            text-decoration: none!important;
         }
 
 a:hover {
-            opacity: 0.5;
-            text-decoration: none;
+            opacity: 0.5!important;
+            text-decoration: none!important;
         }
 
         body {
