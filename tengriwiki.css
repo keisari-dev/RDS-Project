@@ -275,6 +275,7 @@ CHARACTER/LOCATION/FACTION TEMPLATE
 #wiki-profile a {
             color: var(--rds-primary)!important;
             text-decoration: none!important;
+	        font-weight:700;
         }
 
 #wiki-profile a:hover {
