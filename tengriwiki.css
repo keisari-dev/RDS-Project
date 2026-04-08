@@ -699,6 +699,10 @@ CHARACTER/LOCATION/FACTION TEMPLATE
         	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
+        .related-links a:hover {
+        	color: #ffffff!important;
+        }
+
 
         /* --- Footer --- */
         .site-footer {
