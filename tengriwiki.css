@@ -146,6 +146,7 @@ HOME PAGE
         .dir-card:hover {
             border-color: #bbb;
             color: var(--rds-primary);
+			opacity: 1!important
         }
         .dir-icon {
             font-size: 2rem;
@@ -199,6 +200,7 @@ HOME PAGE
         .dir-card-sm:hover {
             border-color: #bbb;
             color: var(--rds-primary);
+			opacity: 1!important
         }
         .dir-icon-sm {
             font-size: 2rem;
