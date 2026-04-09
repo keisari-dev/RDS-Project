@@ -25,12 +25,11 @@ BODY STUFF
         }
 
 a {
-            color: var(--rds-primary)!important;
+            color: var(--rds-secondary)!important;
             text-decoration: none!important;
         }
 
 a:hover {
-            opacity: 0.5!important;
             text-decoration: none!important;
         }
 
