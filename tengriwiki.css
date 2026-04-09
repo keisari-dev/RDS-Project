@@ -691,16 +691,10 @@ CHARACTER/LOCATION/FACTION TEMPLATE
         }
 
         .related-links:hover {
-        	background-color: var(--rds-primary);
-        	color: #ffffff!important;
         	text-decoration: none;
         	border-color: var(--rds-border);
         	transform: translateY(-2px);
         	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .related-links a:hover {
-        	color: #ffffff!important;
         }
 
 
