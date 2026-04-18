@@ -950,3 +950,75 @@ STORY INDEX
             .hero-title { font-size: 2rem; }
             .spotlight-card h3 { font-size: 1.5rem; }
         }
+
+/* =========================================
+CHAPTERS
+========================================= */
+ /* --- Metadata Grid --- */
+        .metadata-grid {
+            background-color: var(--rds-light-grey);
+            border: 1px solid var(--rds-border);
+            border-radius: 4px;
+            padding: 1.5rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .meta-item .label { font-weight: 700; color: #888; }
+        .meta-item .value { color: var(--rds-dark-grey); }
+        .meta-item a { color: var(--rds-primary); font-weight: 700; text-decoration: none; }
+        .meta-item a:hover { color: var(--rds-dark-primary); }
+
+        /* --- Content Advisory --- */
+        .warning-btn {
+            background: transparent;
+            border: 1px solid var(--rds-border);
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: #777;
+            width: 100%;
+            text-align: left;
+            transition: all 0.2s;
+        }
+        .warning-btn:hover { background: #f0f0f0; color: #333; }
+        .warning-btn .fa-chevron-down { transition: transform 0.3s ease; }
+        .warning-btn[aria-expanded="true"] .fa-chevron-down { transform: rotate(180deg); }
+        .warning-content { font-size: 0.9rem; text-align: justify; }
+
+        /* --- Chapter Body --- */
+        .chapter-body {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        .chapter-body p { text-align: justify; margin-bottom: 0; }
+        .chapter-body p + p { text-indent: 2.5rem; margin-top: 1.5rem; }
+        .scene-break { border-top: 1px solid var(--rds-border); margin: 2.5rem auto; width: 50px; }
+
+        /* --- Chapter Navigation --- */
+        .btn-rds-nav {
+            background-color: var(--rds-light-grey);
+            color: var(--rds-dark-grey);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 1px solid var(--rds-border);
+            padding: 10px 25px;
+            transition: all 0.2s;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .btn-rds-nav { background-color: var(--rds-light-grey); color: var(--rds-primary); }
+        .btn-rds-nav.home { background-color: var(--rds-light-grey); color: var(--rds-primary); }
+        .btn-rds-nav:hover,.btn-rds-nav.home:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+        /* --- Author's Notes --- */
+        .authors-notes {
+            border-top: 1px solid var(--rds-border);
+            padding: 2rem;
+            font-style: italic;
+        }
+        .authors-notes h4 { font-family: var(--font-display); font-style: normal; }
