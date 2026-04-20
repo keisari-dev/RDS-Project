@@ -994,7 +994,7 @@ CHAPTERS
             line-height: 1.8;
         }
         .chapter-body p { text-align: justify; margin-bottom: 0; }
-        .scene-break { border-top: 1px solid var(--rds-border); margin: 2.5rem auto; width: 50px; }
+        .scene-break { border-top: 1px solid var(--rds-dark-grey); margin: 2.5rem auto; width: 50px; }
 
         /* --- Chapter Navigation --- */
         .btn-rds-nav {
