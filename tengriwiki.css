@@ -993,7 +993,7 @@ CHAPTERS
             font-size: 1.1rem;
             line-height: 1.8;
         }
-        .chapter-body p { text-align: justify; margin-bottom: 0; }
+        .chapter-body p { text-align: justify; }
         .scene-break { border-top: 1px solid var(--rds-dark-grey); margin: 2.5rem auto; width: 50px; }
 
         /* --- Chapter Navigation --- */
