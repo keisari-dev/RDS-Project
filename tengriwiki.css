@@ -994,7 +994,6 @@ CHAPTERS
             line-height: 1.8;
         }
         .chapter-body p { text-align: justify; margin-bottom: 0; }
-        .chapter-body p + p { text-indent: 2.5rem; margin-top: 1.5rem; }
         .scene-break { border-top: 1px solid var(--rds-border); margin: 2.5rem auto; width: 50px; }
 
         /* --- Chapter Navigation --- */
